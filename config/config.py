@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAnonymous2005/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StarbotUpdate")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Super_Star_Singing_Group")
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQDGrOSKYUCBXa45st9vwa4uqivZBtPw5-Cgsaqd_HSHtG5f3sgsHTLFEmOjjq1UKqvwhvqHu20GIncLqKiCVh_TTKEoAY8BxdyJLMDiFxOh_vAHlj3eQCUh7xZRnaca1CsQgKZ3kgSABCAqyk8U76zuKaYqdqb6k3Ad1u3h4TkerQlVndZhCDsigs9SzscggLL9C-iIncsD_DdXwfAhOG8PDg8HwJRJUW0uEL61S-h5thUldmZ7w301zQ-IlTyW3MJPfp4wfBnS4PF4RL46uQ_khlccv1qR64MnHTl1sf3vh0-AvUFlvSQXls54d4dDhdFAvZR_bK8Z2IhSOIehcUXxAAAAAWNwj0IA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
